@@ -90,10 +90,7 @@ async def start_command(client: Client, message: Message):
                 pass
         return
     else:
-        await cmd.reply_photo(
-            photo=f"(random.choice(["https://telegra.ph/file/e12d1510ec78e0a36f8cd.jpg", "https://telegra.ph/file/dfcad196bfcf4bc85a650.jpg])),
-            caption=START_MSG,
-            reply_markup=InlineKeyboardMarkup(
+        reply_markup = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton("♻️GROUP",url='https://t.me/universalmovieE'),
