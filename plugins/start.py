@@ -101,7 +101,7 @@ async def start_command(client: Client, message: Message):
                 ]
             ]
         )
-        await message.reply_text(
+        await message.reply_photo(random.choice(["https://telegra.ph/file/ed541c137956e4cd690e3.jpg,"https://telegra.ph/file/dfcad196bfcf4bc85a650.jpg,"https://telegra.ph/file/e12d1510ec78e0a36f8cd.jpg"]))
             text = START_MSG.format(
                 first = message.from_user.first_name,
                 last = message.from_user.last_name,
