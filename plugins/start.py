@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
             reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🏅GROUP",url='https://t.me/universalmovieE'),
+                    InlineKeyboardButton("♻️GROUP",url='https://t.me/universalmovieE'),
                     InlineKeyboardButton("🏷️CHANNEL",url='https://t.me/joinchat/FYBCIcMfr0AyOTFl')
                 ],
                 [
